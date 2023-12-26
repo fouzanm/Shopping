@@ -15,7 +15,7 @@ const CartModal = forwardRef(function Modal(
       },
     };
   });
-
+  console.log("Hey")
   return createPortal(
     <dialog id="modal" ref={dialog}>
       <h2>{title}</h2>
